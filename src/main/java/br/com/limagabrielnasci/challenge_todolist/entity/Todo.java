@@ -20,9 +20,13 @@ public class Todo {
 
     @NotBlank
     private String description;
-    
+
     private boolean completed;
     private int priority;
+
+    public Todo() {
+        
+    }
 
     public Todo(String name, String description, boolean completed, int priority) {
         this.name = name;
